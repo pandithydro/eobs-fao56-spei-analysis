@@ -43,3 +43,19 @@ A core feature of this project is the robust comparison of distribution fitting 
 2.  **Downscaling:** Bilinear interpolation from the 0.1° grid to the Hamerstorf coordinates.
 3.  **ET0 Calculation:** Implementation of the FAO-56 Penman-Monteith algorithm using the multi-variable input suite.
 4.  **Fitting & Comparison:** Evaluation of MLE vs. PWM for drought tail-behavior stability.
+
+## Results & Statistical Fitting
+
+### Log-Logistic Distribution (Standard SPEI)
+| MLE Fitting | Unbiased PWM Fitting |
+| :---: | :---: |
+| ![Log-Logistic MLE](plot/loglogistic_mle_fit.png) | ![Log-Logistic PWM](plot/loglogistic_unbiased_pwm_fit.png) |
+
+### Generalized Extreme Value (GEV) Distribution
+| MLE Fitting | Unbiased PWM Fitting |
+| :---: | :---: |
+| ![GEV MLE](plot/gev_mle_fit.png) | ![GEV PWM](plot/gev_unbiased_pwm_fit.png) |
+
+### Comparison of Fitting Methods
+![SPEI MLE](plot/spei_mle_fit.png)
+![SPEI PWM](plot/spei_unbiased_pwm_fit.png)
