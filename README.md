@@ -32,12 +32,11 @@ Reference Evapotranspiration (ET0) was calculated using the full **FAO-56 Penman
 The analysis focuses on the 6-month SPEI ending in September, capturing the cumulative water balance ($P - ET_0$) across the primary German growing season (April–September).
 
 ### Parameter Estimation Comparison
-A core feature of this project is the robust comparison of distribution fitting for the September water balance:
+A core feature of this project is the comparison of distribution fitting for the September water balance:
 1.  **Distributions:** Log-Logistic (Standard SPEI) vs. Generalized Extreme Value (GEV).
 2.  **Estimation Methods:**
-    - **Maximum Likelihood Estimation (MLE):** Standard frequentist optimization.
-    - **Probability Weighted Moments (PWM):** Known for superior performance in hydrological extremes and smaller samples.
-
+    - **Maximum Likelihood Estimation (MLE)** 
+    - **Probability Weighted Moments (PWM)**
 ## Workflow Summary
 1.  **Data Extraction:** Identifying and filling missing values in the E-OBS time series.
 2.  **Downscaling:** Bilinear interpolation to the Hamerstorf site coordinates.
